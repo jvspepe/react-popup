@@ -9,33 +9,33 @@ export function B1Card({ missions }: CardProps) {
     <div className="relative">
       {/* Outer Border */}
       <img
-        src="b1-border-outer.svg"
+        src="/b1-border-outer.svg"
         alt=""
         className="absolute top-[1.75rem] scale-[1.12]"
       />
       {/* Lights */}
       <img
-        src="light.png"
+        src="/light.png"
         alt=""
         className="absolute top-1/2 -left-[calc(100%-17.6rem)] z-90 h-3/4 -translate-y-1/2"
       />
       <img
-        src="light.png"
+        src="/light.png"
         alt=""
         className="absolute top-1/2 -right-[calc(100%-23.75rem)] z-90 h-3/4 -translate-y-1/2"
       />
       {/* Outer Shield */}
-      <img src="b1-shield.svg" alt="" className="absolute scale-[1.035]" />
+      <img src="/b1-shield.svg" alt="" className="absolute scale-[1.035]" />
       {/* Inner Shield Mask */}
-      <div className="relative h-[735px] w-[460px] bg-[url(b1-shield-inner.svg)] mask-[url(b1-shield-inner.svg)] bg-cover mask-cover">
+      <div className="relative h-[735px] w-[460px] bg-[url(/b1-shield-inner.svg)] mask-[url(/b1-shield-inner.svg)] bg-cover mask-cover">
         {/* Inner Border */}
-        <img src="b1-border-inner.svg" alt="" className="absolute z-20" />
+        <img src="/b1-border-inner.svg" alt="" className="absolute z-20" />
         {/* Hero Image */}
-        <img src="b1-background.svg" alt="" className="relative z-10" />
-        <img src="b1-banner.png" alt="" className="relative z-[15] -mt-24" />
+        <img src="/b1-background.svg" alt="" className="relative z-10" />
+        <img src="/b1-banner.png" alt="" className="relative z-[15] -mt-24" />
         {/* Hexagon Background Pattern */}
         <img
-          src="background.svg"
+          src="/background.svg"
           alt=""
           className="absolute bottom-0 -z-1 opacity-10"
         />
@@ -56,13 +56,13 @@ export function B1Card({ missions }: CardProps) {
           >
             {/* Top light */}
             <img
-              src="light.png"
+              src="/light.png"
               alt=""
               className="absolute -top-22 left-2/3 -z-10 w-1/2 -translate-x-2/3 -rotate-90"
             />
             {/* Bottom light */}
             <img
-              src="light.png"
+              src="/light.png"
               alt=""
               className="absolute -bottom-[89px] left-2/4 -z-10 w-1/2 -translate-x-2/4 rotate-90"
             />

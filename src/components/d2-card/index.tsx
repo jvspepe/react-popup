@@ -11,15 +11,15 @@ export function D2Card({ badges }: D2CardProps) {
   return (
     <div className="relative max-w-xl overflow-hidden rounded-[4.5rem] bg-gradient-to-t from-[#FF6200] to-[#FF9A5B] p-1">
       <img
-        src="background.svg"
+        src="/background.svg"
         alt=""
         className="absolute bottom-0 opacity-10"
       />
       <div className="overflow-hidden rounded-[4.25rem] bg-neutral-900">
         <div className="relative">
-          <img src="d2-hero.png" alt="" />
+          <img src="/d2-hero.png" alt="" />
           <img
-            src="d2-cta.png"
+            src="/d2-cta.png"
             alt=""
             className="absolute -bottom-30 left-1/2 w-3/4 -translate-x-1/2"
           />
