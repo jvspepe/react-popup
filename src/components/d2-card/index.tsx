@@ -23,6 +23,11 @@ export function D2Card({ badges }: D2CardProps) {
             alt=""
             className="absolute -bottom-30 left-1/2 w-3/4 -translate-x-1/2"
           />
+          <img
+            src="/d2-plane.svg"
+            alt=""
+            className="absolute bottom-8 left-4 w-1/5"
+          />
         </div>
         <div className="mt-10 flex items-center justify-between gap-4 p-4">
           {badges.map((badge) => (

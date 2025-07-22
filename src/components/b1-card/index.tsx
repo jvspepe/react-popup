@@ -31,7 +31,7 @@ export function B1Card({ missions }: CardProps) {
         {/* Inner Border */}
         <img src="/b1-border-inner.svg" alt="" className="absolute z-20" />
         {/* Hero Image */}
-        <img src="/b1-background.svg" alt="" className="relative z-10" />
+        <img src="/b1-background.png" alt="" className="relative z-10" />
         <img src="/b1-banner.png" alt="" className="relative z-[15] -mt-24" />
         {/* Hexagon Background Pattern */}
         <img
